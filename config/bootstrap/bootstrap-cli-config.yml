@@ -67,8 +67,17 @@ bootstrap:
               - cdf-group: cdf:all:read
                 idp-source-id: ab2b1ded-ae03-4c8a-a5b1-f395a8e3ddef
                 idp-source-name: bootcamp-10-test-all-read
-
-
+        - cdf-project: cdf-bootcamp-10-prod
+          mappings:
+              - cdf-group: cdf:root
+                idp-source-id: e0dba5b2-bc2c-4094-926a-a34d10c5a4fe
+                idp-source-name: bootcamp-10-prod-admin
+              - cdf-group: cdf:all:owner
+                idp-source-id: 74c2e27a-de43-42ca-8b4f-f140023ca086
+                idp-source-name: bootcamp-10-prod-all-owner
+              - cdf-group: cdf:all:read
+                idp-source-id: 94098cf7-5fb3-47b8-8b08-f8c22ed15b69
+                idp-source-name: bootcamp-10-prod-all-read
     namespaces:
         - ns-name: src
           description: Sources used for data extraction
