@@ -49,7 +49,7 @@ rawdbs:
 
     - rawdb-name: src:002:opcua:db
       dataset-external-id: src:002:opcua:ds
-      short-name: timeseries
+      short-name: opcua
       rawtables:
           - rawtable-name: datapoints
             pipelines:
