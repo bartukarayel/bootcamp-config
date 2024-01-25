@@ -2,7 +2,7 @@
 externalId: create_asset_hierarchy
 name: Asset Hierarchy
 query:
-    file: transformation.sql
+  file: transformation.sql
 destination:
   type: asset_hierarchy
 ignoreNullFields: true
